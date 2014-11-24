@@ -1,0 +1,63 @@
+﻿namespace ServerWindowsForms
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// 必需的设计器变量。
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// 清理所有正在使用的资源。
+        /// </summary>
+        /// <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows 窗体设计器生成的代码
+
+        private void InitializeComponent()
+        {
+            this.InforRichTextBox = new System.Windows.Forms.RichTextBox();
+            this.SuspendLayout();
+            // 
+            // InforRichTextBox
+            // 
+            this.InforRichTextBox.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.InforRichTextBox.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.InforRichTextBox.Location = new System.Drawing.Point(-1, 0);
+            this.InforRichTextBox.Name = "InforRichTextBox";
+            this.InforRichTextBox.Size = new System.Drawing.Size(779, 518);
+            this.InforRichTextBox.TabIndex = 1;
+            this.InforRichTextBox.Text = "";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(776, 515);
+            this.Controls.Add(this.InforRichTextBox);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.Name = "Form1";
+            this.ShowIcon = false;
+            this.Text = "车辆预约服务器";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.RichTextBox InforRichTextBox;
+
+    }
+}
+
